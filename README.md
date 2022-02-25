@@ -4,6 +4,7 @@
 * [Project-Planning](#Project-Planning)
 * [Material-List](#Material-List)
 * [Wiring-Diagram](#Wiring-Diagram)
+* [Commented-Code](#Commented-Code)
 * [Schedule](#Schedule)
 * [Problems-and-Advice](#Problems-and-Advice)
 
@@ -38,6 +39,103 @@ The motor drivers in the diagram are not the same as the ones we used(Tinkercad 
 
 ---
 
+## Commented-Code
+
+### Code for first MetroExpress
+```python
+#Jay Conklin
+#Make 2 motors of the horse head turn based on the input from 2 potentiometers
+
+import board
+import motor
+import pwmio
+import time
+from analogio import AnalogIn
+
+pwm1 = pwmio.PWMOut(board.D4, frequency=50)     #Sets 4 pwm outputs, 2 for each dc motor
+pwm2 = pwmio.PWMOut(board.D3, frequency=50)
+pwm3 = pwmio.PWMOut(board.D5, frequency=50)
+pwm4 = pwmio.PWMOut(board.D6, frequency=50)
+
+motor1 = motor.DCMotor(pwm1, pwm2)      #Uses the pwm outputs to crate 2 motor objects
+motor2 = motor.DCMotor(pwm3, pwm4)
+
+analog_in1 = AnalogIn(board.A0)     #Sets up the pins that it will use to read the potentiometers
+analog_in2 = AnalogIn(board.A1)
+
+sensors = [0, 0]       #This array will hold the throttle values of the 2 motors
+
+def sensor_read():      #Takes the potentiometer values, runs them through the formula to convert them to the appropriate range,
+                        #and sets them as values to be returned to the motors' throttles
+    sensor1 = round(motor_calc(analog_in1.value, 1.625),2)
+    sensor2 = round(motor_calc(analog_in2.value, 6.5),2)
+    return[sensor1,sensor2,]
+def motor_calc(input, n):
+    if input==0:    #It will return -0.7 if the input is 0 to avoid an error
+        return -0.7
+    input=input/10000       #Takes the potentiometer's input (0-6.5), and makes it a range from -x to -0.5 and 0.5 to x, where x is dependent on the input value of n
+                            #It will not output a number between -0.5 and 5 because that much power isn't strong enough to make the motors move.
+    input1 = abs(input-3.25)/(input-3.25)
+    input1 = input1*(abs(input-3.25)+5*n)
+    input1 = input1/n
+    if input1>5.1 or input1<-5.1:
+        return input1/10
+    else:                   #If the input is between -5.1 and 5 or between 5 to 5.1 it returns 0 so that is when the motors don't move
+        return 0
+
+while True:
+    sensors = sensor_read()     #Calls the function that reads the sensors and returns the appropriate throttle values
+    print(sensors)
+    motor2.throttle = sensors[0]    #Sets the throttle of the motors based on the return values from sensor_read()
+    motor1.throttle = sensors[1]
+    time.sleep(.1)
+```
+
+### Code for second MetroExpress
+```python
+#Jay Conklin
+#Make a motor on the horse head turn based on the input from a potentiometer
+#For explanation see horse_code, this is the exact same code but with 1 motor/potentiometer instead of 2.
+
+import board
+import motor
+import pwmio
+import time
+from analogio import AnalogIn
+
+pwm1 = pwmio.PWMOut(board.D4, frequency=50)
+pwm2 = pwmio.PWMOut(board.D3, frequency=50)
+
+motor1 = motor.DCMotor(pwm1, pwm2)
+
+analog_in1 = AnalogIn(board.A0)
+
+sensors = 0
+
+def sensor_read():
+    sensor1 = round(motor_calc(analog_in1.value, 6.5),2)
+    return sensor1
+def motor_calc(input, n):
+    if input==0:
+        return -0.7
+    input=input/10000
+    input1 = abs(input-3.25)/(input-3.25)
+    input1 = input1*(abs(input-3.25)+5*n)
+    input1 = input1/n
+    if input1>5.1 or input1<-5.1:
+        return input1/10
+    else:
+        return 0
+
+while True:
+    sensors = sensor_read()
+    print(sensors)
+    motor1.throttle = sensors
+    time.sleep(.1)
+```
+
+---
+
 ## Schedule
 ### Nov 17 - Christmas Break
 We spent this time researching and testing out horse. We neede to do a lot of research about what kind of electronics the horse used and how we could control them. We were also looking for replacement parts if they would be needed.
@@ -47,7 +145,6 @@ We spent this time getting the motor working and figuring out the library that y
 
 ### Feb 1 - Feb 18
 We spent this time getting the potentiometers to control the movement of the servos. We had to write an algorithm to convert the range of potentiometer values to a motor throttle value [(linked here)](https://www.desmos.com/calculator/lihu1dxsw2). We also realized that to control the third motor we will need a 2nd metro express board so we wired a second board and motor driver to control it.
-.
 
 ---
 
