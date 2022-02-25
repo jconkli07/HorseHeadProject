@@ -25,3 +25,5 @@ Another piece of advice that we learned from this project is not to make things 
 ## Wiring diagram
 ![This is the Wiring](https://github.com/jconkli07/HorseHeadProject/blob/main/Pictures/Horseheadwiringdiagram.PNG)
 
+### A few Notes
+The motor drivers in the diagram are not the same as the ones we used(Tinkercad didn't have those) so the wires going in and out of the motor driver on the diagram are simply a representation of what it would look like on the Drv8833 motor driver(the one we actually used) meaning that where the wires are placed is the same poistion they are in on the Drv8833. Other than that, the wiring is all correct besides the wiring for the battery boxes which is relativley simple as the two wires from the battery box go into the two ports in the Drv8833 that aren't connected to the breadboard and need to be screwed in(Should be self explanatory when you see the Drv8833). 
