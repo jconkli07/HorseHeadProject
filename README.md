@@ -1,5 +1,7 @@
 # HorseHeadProject
+
 ---
+
 ## Table of Contents
 * [Project-Planning](#Project-Planning)
 * [Material-List](#Material-List)
@@ -7,6 +9,7 @@
 * [Commented-Code](#Commented-Code)
 * [Schedule](#Schedule)
 * [Problems-and-Advice](#Problems-and-Advice)
+* [Pics-and-Videos](#Pics-and-Videos)
 
 ---
 
@@ -40,7 +43,6 @@ The motor drivers in the diagram are not the same as the ones we used(Tinkercad 
 ---
 
 ## Commented-Code
-
 ### Code for first MetroExpress
 ```python
 #Jay Conklin
@@ -153,3 +155,8 @@ One of our biggest problems was assuming that the electronic pictured above was 
 
 Another piece of advice that we learned from this project is not to make things more complicated if they don't have to be. We needed 2 arduinos in order to control all of the motors, and we were at one point trying to chain them together so that one could control the other and we would just run code on one. After research this turned out to be very diffuclt and we decided to just have code running seperately on 2 arduinos.This ended up saving us a lot of time and it was just as effective as the original plan.
 
+# Pics-and-Videos
+## Pics
+## Mouth-Chewing
+## Mouth-Chewing-and-Head-Moving-Up-and-Down
+## Head-Shaking-and-Blinking
