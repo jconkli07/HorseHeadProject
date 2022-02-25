@@ -4,15 +4,15 @@
 The planning for this project was a long and difficult task as we had to not only figure out how and where the horse motors were and worked but then how to code them for our specific needs and ideas. We started our planning by figuring out where the motors were and how to control them, which proved fairly simple as they were just DC motors controlled by two wires. We originally thought that the contact sensors on the face were the motors instead of the real ones on the neck which set back our planning. Once we figured out how the DC motors worked we were able to do a test of concept where we simply made the motors spin. The thing about our project was that we didn't really need to do much cad or planning and just simply needed to figure out how the horse worked, what it did, and how we could control that with the proper wiring and code. So we really didn't have a planning phase but just figuring out how the horse worked and how we could control it. 
 
 ## Material List: 
-2 Metro express boards
-2 Breadboards
-21 wires(approxamation)
-2 Drv8833 Motor drivers
-2 battery packs
-12 batteries
-1 Mecahnical horse
-1 box to hold batteries and wiring
-Duct tape
+ - 2 Metro express boards
+ - 2 Breadboards
+ - 21 wires(approxamation)
+ - 2 Drv8833 Motor drivers
+ - 2 battery packs
+ - 12 batteries
+ - 1 Mecahnical horse
+ - 1 box to hold batteries and wiring
+ - Duct tape
 
 ## Schedule:
 
