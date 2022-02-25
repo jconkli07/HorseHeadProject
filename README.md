@@ -23,5 +23,5 @@ One of our biggest problems was assuming that the electronic pictured above was 
 Another piece of advice that we learned from this project is not to make things more complicated if they don't have to be. We needed 2 arduinos in order to control all of the motors, and we were at one point trying to chain them together so that one could control the other and we would just run code on one. After research this turned out to be very diffuclt and we decided to just have code running seperately on 2 arduinos.This ended up saving us a lot of time and it was just as effective as the original plan.
 
 ## Wiring diagram
-
+![This is the Wiring](https://github.com/jconkli07/HorseHeadProject/blob/main/Pictures/Horseheadwiringdiagram.PNG)
 
