@@ -138,6 +138,14 @@ while True:
 
 ---
 
+# Pics-and-Videos
+## Pics
+## Mouth-Chewing
+## Mouth-Chewing-and-Head-Moving-Up-and-Down
+## Head-Shaking-and-Blinking
+
+---
+
 ## Schedule
 ### Nov 17 - Christmas Break
 We spent this time researching and testing out horse. We neede to do a lot of research about what kind of electronics the horse used and how we could control them. We were also looking for replacement parts if they would be needed.
@@ -154,9 +162,3 @@ We spent this time getting the potentiometers to control the movement of the ser
 One of our biggest problems was assuming that the electronic pictured above was a stepper motor, when it was in fact a contact sensor. We went into this project belieing that it was a motor that we could use to move the horse. We began taking apartthe horse and doing research on how to wire stepper motors. We then wrote all of the code for stepper motors and wired them up, and spent a long time trying to figure out why it wasn't turning. We eventually took it apart and realized that it was a contact sensor and not even a motor. This could have had terrible consequences for our project, however we ended up finding the real (dc) motors that controlled the horse. My advice for people to avoid this in the future is to plan out even tiny details when planning your project, and make sure to test your proof of concepts as early as possible. The reason that we couldn't test the proof of concept earlier is because there was a ton of research, planning wiring, and coding that needed to happen so that we could even use any of the electronics on the horse.
 
 Another piece of advice that we learned from this project is not to make things more complicated if they don't have to be. We needed 2 arduinos in order to control all of the motors, and we were at one point trying to chain them together so that one could control the other and we would just run code on one. After research this turned out to be very diffuclt and we decided to just have code running seperately on 2 arduinos.This ended up saving us a lot of time and it was just as effective as the original plan.
-
-# Pics-and-Videos
-## Pics
-## Mouth-Chewing
-## Mouth-Chewing-and-Head-Moving-Up-and-Down
-## Head-Shaking-and-Blinking
