@@ -147,9 +147,10 @@ while True:
 
 ## Pics and Videos
 ### Pics
-<img src="Pictures/LeftView.heic" alt="Left View" width="200" height="200">
-<img src="Images/Base.png" alt="Base Screenshot" width="200" height="200">
-<img src="Images/Base.png" alt="Base Screenshot" width="200" height="200">
+<img src="Pictures/LeftView.png" alt="Left View" width="200" height="200">
+<img src="Pictures/TopView.png" alt="Top View" width="200" height="200">
+<img src="Pictures/RightView.png" alt="Right View" width="200" height="200">
+<img src="Pictures/WideView.png" alt="Wide View" width="200" height="200">
 
 ### Mouth Chewing
 [Video Link](https://drive.google.com/file/d/19oo2u8CKr6djT2KYptHYxpuuNmc0SYO_/view?usp=sharing)
