@@ -156,7 +156,7 @@ while True:
 [Video Link](https://drive.google.com/file/d/19oo2u8CKr6djT2KYptHYxpuuNmc0SYO_/view?usp=sharing)
 
 ### Mouth Chewing and Head Moving Up and Down
-[LVideo Link](https://drive.google.com/file/d/1nHndtD1vkDzf1oPBAY6UI3tfLxE9DLCr/view?usp=sharing)
+[Video Link](https://drive.google.com/file/d/1nHndtD1vkDzf1oPBAY6UI3tfLxE9DLCr/view?usp=sharing)
 
 ### Head Shaking and Blinking
 [Video Link](https://drive.google.com/file/d/1g3tOSRPO_4eeNxPeC8NJDWHLcA9pIUPU/view?usp=sharing)
