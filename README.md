@@ -147,7 +147,7 @@ while True:
 
 ## Pics and Videos
 ### Pics
-<img src="Images/Base.png" alt="Base Screenshot" width="200" height="200">
+<img src="Pictures/LeftView.HEIC" alt="Left View" width="200" height="200">
 <img src="Images/Base.png" alt="Base Screenshot" width="200" height="200">
 <img src="Images/Base.png" alt="Base Screenshot" width="200" height="200">
 
