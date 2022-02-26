@@ -3,13 +3,13 @@
 ---
 
 ## Table of Contents
-* [Project-Planning](#Project-Planning)
-* [Material-List](#Material-List)
-* [Wiring-Diagram](#Wiring-Diagram)
-* [Commented-Code](#Commented-Code)
+* [Project-Planning](#Project Planning)
+* [Material-List](#Material List)
+* [Wiring-Diagram](#Wiring Diagram)
+* [Commented-Code](#Commented Code)
+* [Pics-and-Videos](#Pics and Videos)
 * [Schedule](#Schedule)
-* [Problems-and-Advice](#Problems-and-Advice)
-* [Pics-and-Videos](#Pics-and-Videos)
+* [Problems-and-Advice](#Problems and Advice)
 
 ---
 
