@@ -1,4 +1,4 @@
-# HorseHeadProject
+# Horse Head Project
 
 ---
 
