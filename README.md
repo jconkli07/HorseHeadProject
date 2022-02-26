@@ -7,13 +7,14 @@
 * [Material List](#Material-List)
 * [Wiring Diagram](#Wiring-Diagram)
 * [Commented Code](#Commented-Code)
+* [CAD Renderings](#CAD-Renderings)
 * [Pics and Videos](#Pics-and-Videos)
 * [Schedule](#Schedule)
 * [Problems and Advice](#Problems-and-Advice)
 
 ---
 
-## Project Planning:
+## Project Planning
 The planning for this project was a long and difficult task as we had to not only figure out how and where the horse motors were and worked but then how to code them for our specific needs and ideas. We started our planning by figuring out where the motors were and how to control them, which proved fairly simple as they were just DC motors controlled by two wires. We originally thought that the contact sensors on the face were the motors instead of the real ones on the neck which set back our planning. Once we figured out how the DC motors worked we were able to do a test of concept where we simply made the motors spin. The thing about our project was that we didn't really need to do much cad or planning and just simply needed to figure out how the horse worked, what it did, and how we could control that with the proper wiring and code. So we really didn't have a planning phase but just figuring out how the horse worked and how we could control it.
 
 [Planning Doc 1](https://docs.google.com/document/d/101RoSjEOMPQxE0AH37Yg2qaNu6mBjdQd-6u1tl4LlXM/edit?usp=sharing)
@@ -21,7 +22,7 @@ The planning for this project was a long and difficult task as we had to not onl
 
 ---
 
-## Material List: 
+## Material List
  - 2 Metro express boards
  - 2 Breadboards
  - 21 wires(approxamation)
@@ -138,11 +139,16 @@ while True:
 
 ---
 
-# Pics and Videos
-## Pics
-## Mouth Chewing
-## Mouth Chewing and Head Moving Up and Down
-## Head Shaking and Blinking
+
+## Cad Renderings
+
+---
+
+## Pics and Videos
+### Pics
+### Mouth Chewing
+### Mouth Chewing and Head Moving Up and Down
+### Head Shaking and Blinking
 
 ---
 
