@@ -140,9 +140,9 @@ while True:
 
 # Pics and Videos
 ## Pics
-## Mouth-Chewing
-## Mouth-Chewing-and-Head-Moving-Up-and-Down
-## Head-Shaking-and-Blinking
+## Mouth Chewing
+## Mouth Chewing and Head Moving Up and Down
+## Head Shaking and Blinking
 
 ---
 
