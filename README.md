@@ -167,10 +167,13 @@ while True:
 ### Nov 17 - Christmas Break
 We spent this time researching and testing out horse. We neede to do a lot of research about what kind of electronics the horse used and how we could control them. We were also looking for replacement parts if they would be needed.
 
-### After Break - Feb 1
-We spent this time getting the motor working and figuring out the library that you have to use to control them (motor-->DCmotor). We got the motors moving off of input from the computers.
+### After Break - Jan 14
+We spent this time getting the motors wired into the Metroexpress. THis was harder than we thought as we had to use a motor driver (we used a DRV8833). [adafruit documentation for the library](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-drv8833-dc-stepper-motor-driver-breakout-board.pdf) helped a lot with this.
 
-### Feb 1 - Feb 18
+### Jan 21 - Feb 4
+We spent this time getting the motor working and figuring out the library that you have to use to control them (motor-->DCmotor). The [adafruit documentation for the library](https://www.desmos.com/calculator/lihu1dxsw2) and [adafruit documentation for the library](https://www.desmos.com/calculator/lihu1dxsw2) helped me a lot with figuring this out . We got the motors moving off of set input from the computers.
+
+### Feb 4 - Feb 18
 We spent this time getting the potentiometers to control the movement of the servos. We had to write an algorithm to convert the range of potentiometer values to a motor throttle value [(linked here)](https://www.desmos.com/calculator/lihu1dxsw2). We also realized that to control the third motor we will need a 2nd metro express board so we wired a second board and motor driver to control it. We also designed a box to go onto the horse's neck that will hold all of the electronics.
 
 ### Feb 18 - Feb 25
