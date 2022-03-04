@@ -148,9 +148,9 @@ while True:
 ---
 
 ## Functions
-Potentiometer/motor 1: Horse neck turning left and right
-Potentiometer/motor 2: Horse head twisting left and right, ears twitching, eyes blinking
-Potentiometer/motor 3: Horse head raising/lowering, mouth chewing
+Potentiometer/motor 1: Horse neck turning left and right  
+Potentiometer/motor 2: Horse head twisting left and right, ears twitching, eyes blinking  
+Potentiometer/motor 3: Horse head raising/lowering, mouth chewing  
 
 ---
 
