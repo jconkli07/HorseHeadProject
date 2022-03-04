@@ -8,6 +8,7 @@
 * [Wiring Diagram](#Wiring-Diagram)
 * [Commented Code](#Commented-Code)
 * [CAD Renderings](#CAD-Renderings)
+* [Functions](#Functions)
 * [Pics and Videos](#Pics-and-Videos)
 * [Schedule](#Schedule)
 * [Problems and Advice](#Problems-and-Advice)
@@ -137,16 +138,21 @@ while True:
     motor1.throttle = sensors
     time.sleep(.1)
 ```
-
 ---
 
-
 ## Cad Renderings
-### Cad Pictures
-#### The battery box was the only cad we had to do for the project
+### The battery box was the only cad we had to do for the project
 ![BatteryBoxPicture](https://github.com/jconkli07/HorseHeadProject/blob/main/Pictures/Batteryboxback.PNG)
 ![BatteryBoxpicture2](https://github.com/jconkli07/HorseHeadProject/blob/main/Pictures/Batteryboxfront.PNG)
 
+---
+
+## Functions
+Potentiometer/motor 1: Horse neck turning left and right
+Potentiometer/motor 2: Horse head twisting left and right, ears twitching, eyes blinking
+Potentiometer/motor 3: Horse head raising/lowering, mouth chewing
+
+---
 
 ## Pics and Videos
 ### Pics
