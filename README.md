@@ -170,6 +170,9 @@ Potentiometer/motor 3: Horse head raising/lowering, mouth chewing
 ### Head Shaking and Blinking
 [Video Link](https://drive.google.com/file/d/1g3tOSRPO_4eeNxPeC8NJDWHLcA9pIUPU/view?usp=sharing)
 
+### Neck Rotating
+[Video Link](https://drive.google.com/file/d/1Kc_AaZy9en97-EWw3qzg491Ta6rUgADE/view?usp=sharing)
+
 ---
 
 ## Schedule
