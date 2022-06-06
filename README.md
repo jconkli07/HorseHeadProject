@@ -201,5 +201,5 @@ Another piece of advice that we learned from this project is not to make things 
 
 ---
 
-## Improvements and Next Steps. 
+## Improvements and Next Steps
 Since we originally turned our project in, we have made steps to improve the functionality and establish what work could be done on it if we had more time. We began working to integrate the horse's contact sensors into our code, so that we could run a command that would do one specific function like open the mouth. This would be very useful and much better than the current system of using potentiometers, however it requires a lot of work for a variety of reasons. Firstly, because each motor controls a few different functions, we have to find out what the contact sensor values are when a motor is performing each function, and then how long to run the motor for and at what speeds. Different funtions, even those using the same motor, often require different motor forces (which we control with the throttle function). This is because something like twisting the whole head and blinking the eyes require different forces, even though they use the same motor.
