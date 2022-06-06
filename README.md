@@ -12,6 +12,7 @@
 * [Pics and Videos](#Pics-and-Videos)
 * [Schedule](#Schedule)
 * [Problems and Advice](#Problems-and-Advice)
+* [Improvements and Next Steps](#Improvements-and-Next_Steps)
 
 ---
 
@@ -197,3 +198,8 @@ We spent this time attaching the horse head back onto the body and documenting o
 One of our biggest problems was assuming that the electronic pictured above was a stepper motor, when it was in fact a contact sensor. We went into this project belieing that it was a motor that we could use to move the horse. We began taking apartthe horse and doing research on how to wire stepper motors. We then wrote all of the code for stepper motors and wired them up, and spent a long time trying to figure out why it wasn't turning. We eventually took it apart and realized that it was a contact sensor and not even a motor. This could have had terrible consequences for our project, however we ended up finding the real (dc) motors that controlled the horse. My advice for people to avoid this in the future is to plan out even tiny details when planning your project, and make sure to test your proof of concepts as early as possible. The reason that we couldn't test the proof of concept earlier is because there was a ton of research, planning wiring, and coding that needed to happen so that we could even use any of the electronics on the horse.
 
 Another piece of advice that we learned from this project is not to make things more complicated if they don't have to be. We had a timer issue that meant that one board could only control 2 motors, and there are 3 total. This means that we needed 2 arduinos in order to control all of the motors, and we were at one point trying to chain them together so that one could control the other and we would just run code on one. After research this turned out to be very diffuclt and we decided to just have code running seperately on 2 arduinos.This ended up saving us a lot of time and it was just as effective as the original plan.
+
+---
+
+##Improvements and Next Steps
+Since we originally turned our project in, we have made steps to improve the functionality and establish what work could be done on it if we had more time. We began working to integrate the horse's contact sensors into our code, so that we could run a command that would do one specific function like open the mouth. This would be very useful and much better than the current system of using potentiometers, however it requires a lot of work for a variety of reasons. Firstly, because each motor controls a few different functions, we have to find out what the contact sensor values are when a motor is performing each function, and then how long to run the motor for and at what speeds. Different funtions, even those using the same motor, often require different motor forces (which we control with the throttle function). This is because something like twisting the whole head and blinking the eyes require different forces, even though they use the same motor.
