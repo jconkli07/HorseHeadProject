@@ -12,7 +12,7 @@
 * [Pics and Videos](#Pics-and-Videos)
 * [Schedule](#Schedule)
 * [Problems and Advice](#Problems-and-Advice)
-* [Improvements and Next Steps](#Improvements-and-Next_Steps)
+* [Improvements and Next Steps](#Improvements-and-Next-Steps)
 
 ---
 
