@@ -192,6 +192,9 @@ We spent this time getting the potentiometers to control the movement of the ser
 ### Feb 18 - Feb 25
 We spent this time attaching the horse head back onto the body and documenting our project.
 
+### End of Year
+See section at the bottom titled * [Improvements and Next Steps](#Improvements-and-Next-Steps)
+
 ---
 
 ## Problems and Advice
